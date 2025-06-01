@@ -28,9 +28,9 @@ public class CardTrick {
             }
         }
         if (found) {
-            System.out.println("Congratulations!");
+            System.out.println("Congratulations! You found the lucky card!");
         } else {
-            System.out.println("Sorry!");
+            System.out.println("Sorry! the lucky card was not found.");
         }
         System.out.println("\nMagic Hand:");
         for (Card card : magicHand) {
